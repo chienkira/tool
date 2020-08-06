@@ -1,24 +1,17 @@
 # tool
 
-## Project setup
+## About development
+
 ```
-yarn install
+yarn install    # Project setup
+yarn serve      # Compiles and hot-reloads for development
+yarn build      # Compiles and minifies for production
+yarn lint       # Lints and fixes files
 ```
 
-### Compiles and hot-reloads for development
-```
-yarn serve
-```
+## Features
 
-### Compiles and minifies for production
-```
-yarn build
-```
+### String
 
-### Lints and fixes files
-```
-yarn lint
-```
-
-### Customize configuration
-See [Configuration Reference](https://cli.vuejs.org/config/).
+1. Count string length
+1. Convert between half-width and full-width
