@@ -9,7 +9,7 @@
       <div class="navbar-menu">
         <div class="navbar-start">
           <router-link to="/" class="navbar-item">TOP</router-link>
-          <router-link to="/string" class="navbar-item">STRING</router-link>
+          <router-link to="/string-utilities" class="navbar-item">STRING</router-link>
         </div>
       </div>
     </nav>
