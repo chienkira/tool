@@ -123,6 +123,9 @@ $z-bot: 1;
   font-weight: bold;
   font-size: 24px;
   border-radius: 6px;
+  span {
+    animation: steam 1.5s infinite;
+  }
 }
 
 .lamp {
@@ -274,9 +277,9 @@ $z-bot: 1;
 .laptop {
   z-index: $z-top;
   bottom: 2%;
-  left: 22%;
+  left: 25%;
   height: 50%;
-  width: 40%;
+  width: 35%;
   .laptop-screen {
     border-radius: 5px;
     border: 2px solid #CBC8C3;
@@ -291,12 +294,13 @@ $z-bot: 1;
       height: 80%;
       top: 10%;
       left: 10%;
+      padding: 1px;
       border: 1px solid #CBC8C3;
       border-radius: 4px;
       .window-bar {
         background: #212F3D;
         height: 10px;
-        width: 100%;
+        width: calc(100% - 2px);
         line-height: 8px;
         font-size: 9px;
         color: #FFF;
@@ -306,7 +310,7 @@ $z-bot: 1;
           content: '';
           top: 20%;
           left: 5%;
-          height: 48%;
+          height: 70%;
           width: 3%;
           background: #C74F44;
           border-radius: 50%;
